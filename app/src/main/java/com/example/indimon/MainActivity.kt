@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val link: String = "https://asi.payumoney.com/quick/taj"
         val rightArrow: ImageButton = findViewById(R.id.rightArrow)
         val leftArrow: ImageButton = findViewById((R.id.leftArrow))
-        val tajBtn: Button = findViewById(R.id.tajBtn)
+//        val tajBtn: Button = findViewById(R.id.tajBtn)
         val qutubMinar = qutubMinarFragment()
         val agraFort = agraFort()
         val tajFragment = tajFragment()
@@ -56,10 +56,10 @@ class MainActivity : AppCompatActivity() {
 //                }
 //            }
 ////            }
-        tajBtn.setOnClickListener {
-            val intent =  Intent(Intent.ACTION_VIEW, Uri.parse(link))
-            startActivity(intent)
-        }
+//        tajBtn.setOnClickListener {
+//            val intent =  Intent(Intent.ACTION_VIEW, Uri.parse(link))
+//            startActivity(intent)
+//        }
 
 //        if(R.id.mainFragment == qutubMinar){
 //            leftArrow.setOnClickListener {
